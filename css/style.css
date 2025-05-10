@@ -353,6 +353,16 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background-mobile-2x.jpg);
+  }
+}
+
 .container-hero {
   align-items: center;
   display: flex;
@@ -396,6 +406,15 @@ img {
       ),
       url(../images/people-office-tablet.png);
   }
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background-tablet-2x.jpg);
+    }
+  }
   .hero-title {
     margin-bottom: 36px;
     font-weight: 700;
@@ -415,6 +434,15 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office1.jpg);
+  }
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background-2x.jpg);
+    }
   }
   .hero-title {
     margin-bottom: 48px;
